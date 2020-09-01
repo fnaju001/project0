@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Image search</title>
+        
+        <style>
+            .container{
+            text-align: center;
+            margin: 100px;
+            display:block;
+            
+            }
+            h1{
+                color:darkcyan;
+                font-size: 100px;
+                padding-bottom: 100px;
+            }
+
+            ul{
+                text-align: right;
+                flex: content;
+                margin-right: 1.5rem;
+            }
+
+            input[type=text]{
+                width: 100%;
+                margin-bottom: 4rem;
+                border-radius: 20px;
+
+            }
+
+        
+        </style>
+    </head>
+
+    <body>
+        <nav class= "navmenu" >
+            <ul>
+                <a href="index.html" class="btn btn-outline-primary" >Google search</a>
+                
+
+            </ul>
+            
+        </nav>
+
+       
+        <div class="container">
+            <h1>Google</h1>
+            <p>Images</p>
+
+            <form action="https://www.google.com/images">
+                <input type="text" name="q" placeholder="Search.." class="form-control mr-sm-2">
+                <input type="submit" value="Image Search" class="btn btn-primary">
+            </form>
+
+
+        </div>
+
+    </body>
+</html>
